@@ -21,9 +21,14 @@ jobs:
           echo "_____"
           echo "Commit Message"
           echo ${{ github.event.head_commit.message }}
-          echo "_____"
-
 
       - name: Docker
         run: |
           docker pull ubuntu:18.04
+
+      - name: Codecov
+        if: false
+        run: |
+          curl -0s https://uploader.codecov.io/latest/codecov
+          chmod +x codecov
+          ./codecov -t dfg234-4f54-2334-8c0f-r34tq5
