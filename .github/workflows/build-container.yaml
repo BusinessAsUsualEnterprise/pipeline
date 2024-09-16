@@ -24,6 +24,7 @@ jobs:
 
       - name: Docker
         run: |
+          echo "Other Info"
           docker pull ubuntu:18.04
 
       - name: Codecov
