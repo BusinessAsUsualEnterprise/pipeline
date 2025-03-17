@@ -1,5 +1,5 @@
 # CI/CD Security Example
-This is a minimal example to highlight Direct Poisioned Pipeline Execution  
+This is a minimal example to highlight Direct Poisioned Pipeline Execution. small change 
 [https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-04-Poisoned-Pipeline-Execution](https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-04-Poisoned-Pipeline-Execution).
 
 
